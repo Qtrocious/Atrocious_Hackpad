@@ -20,3 +20,5 @@ A 9x9 macropad with a rotary encoder designed to function as a numpad and have c
 - 1x XIAO RP2040
 - 4x M3x16 Bolt
 - 4x M3 Heatset
+
+@Atrocious on Slack!
