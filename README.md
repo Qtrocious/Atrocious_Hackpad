@@ -16,10 +16,11 @@ A 9x9 macropad with a rotary encoder designed to function as a numpad and have c
 - 9x Cherry MX Switches
 - 9x Blank DSA Keycaps
 - 9x SK6812 MINI Leds
+- 9x Through-hole 1N4148 Diodes
+- 3x M3x16 Bolt
+- 3x M3 Heatset
 - 1x EC11 Rotary encoder
 - 1x OLED .91" SSD1306
 - 1x XIAO RP2040
-- 4x M3x16 Bolt
-- 4x M3 Heatset
 
 @Atrocious on Slack!
