@@ -76,41 +76,41 @@ BASE =    KC.LT(0, KC.TD(KC.B, KC.A), prefer_hold=True, tap_interrupted=False, t
 keyboard.keymap = [
  
     [ #LAYER 0: NUMPAD
-     KC.N7,      KC.N8,      KC.N9,     RAISE,
+     KC.N7, KC.N8, KC.N9, RAISE,
      
-     KC.N4,      KC.N5,      KC.N6,
+     KC.N4, KC.N5, KC.N6,
 
-     KC.N1,      KC.N2,      KC.N3
+     KC.N1, KC.N2, KC.N3
     ],
     
     [ #LAYER 1: Media Keys
-     KC.NO,         KC.BRIU,        KC.NO,      MIDDLE,
+     KC.NO, KC.BRIU, KC.NO, MIDDLE,
 
-     KC.MPRV,       KC.MPLY,        KC.MNXT,
+     KC.MPRV, KC.MPLY, KC.MNXT,
 
-     KC.NO,         KC.BRID,        KC.NO
+     KC.NO, KC.BRID, KC.NO
     ],
 
     [ #LAYER 2: DAILY [TBD, will think of it when i have it in-person!]
-     KC.N7,     KC.N8,      KC.N9,      MIDDLER ,
+     KC.N7, KC.N8, KC.N9, MIDDLER ,
 
-     KC.N4,     KC.N5,      KC.N6,
+     KC.N4, KC.N5, KC.N6,
 
-     KC.N1,     KC.N2,      KC.N3
+     KC.N1, KC.N2, KC.N3
     ],
     
-    [ #LAYER 3: LEDs, all of them are placeholders, for now
-     KC.RGB_MODE_KNIGHT,    KC.RGB_MODE_SWIRL,      KC.RGB_MODE_BREATHE,        BASE,
+    [ #LAYER 3: LEDs animation 
+     KC.RGB_MODE_KNIGHT, KC.RGB_MODE_SWIRL, KC.RGB_MODE_BREATHE, BASE,
      
-        KC.RGB_HUD,             KC.RGB_ANI,              KC.RGB_HUI,
+     KC.RGB_HUD, KC.RGB_ANI, KC.RGB_HUI,
      
-           KC.N1,               KC.RGB_AND,              KC.RGB_TOG
+     KC.N1, KC.RGB_AND, KC.RGB_TOG
     ],
 ]
 
 
 encoder_handler.map = [
-    ((KC.VOLD, KC.VOLU),), #Layer 0 NUMPAD
+    ((KC.VOLD, KC.VOLU),), # any layer
 ]
 
 if __name__ == '__main__':
