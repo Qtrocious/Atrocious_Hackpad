@@ -166,4 +166,11 @@ So this is the final design
 
 I wanted to go with black on the top and inclined part because if it gets dirty it doesn't show as much, and the blue in the middle so it resembles Tron!
 
+# June 12 :godmode:
+Added some supports? Idk but i added this to make the assembly easier
+![image](https://github.com/user-attachments/assets/1e51a3ce-09b3-4dbf-a8b3-09f24f095769)
+![image](https://github.com/user-attachments/assets/21fdae0d-1658-4a25-b7a1-c9a0f014e53d)
+![image](https://github.com/user-attachments/assets/ca84453f-f89d-4297-93c9-3ad4920f1dee)
+
+Time Spent: 0.5 hours
 ![Video of the assembling](https://github.com/user-attachments/assets/44710b4c-f038-4628-ad3c-8864bbcb4045)
