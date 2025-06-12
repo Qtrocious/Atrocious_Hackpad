@@ -9,7 +9,8 @@ A 9x9 macropad with a rotary encoder designed to function as a numpad and have c
 ![SCHEMATIC (2)](https://github.com/user-attachments/assets/109e653f-24ff-4892-a571-c9c5e9e7feff)
 
 # Screenshot of my case and how it'll fit together
-![Assembling](https://github.com/user-attachments/assets/04528d86-4f94-40c3-8d1c-15122093e84d)
+![Assembling](https://github.com/user-attachments/assets/fee439ec-3026-445f-9a81-ce59f3c46595)
+
 
 
 # BOM
