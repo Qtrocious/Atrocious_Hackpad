@@ -166,6 +166,68 @@ So this is the final design
 
 I wanted to go with black on the top and inclined part because if it gets dirty it doesn't show as much, and the blue in the middle so it resembles Tron!
 
+For the code, i made 4 layers, each one with different functions.
+```
+keyboard.keymap = [
+ 
+    [ #LAYER 0: NUMPAD
+     KC.N7, KC.N8, KC.N9, RAISE,
+     
+     KC.N4, KC.N5, KC.N6,
+
+     KC.N1, KC.N2, KC.N3
+    ],
+    
+    [ #LAYER 1: Media Keys
+     KC.NO, KC.BRIU, KC.NO, MIDDLE,
+
+     KC.MPRV, KC.MPLY, KC.MNXT,
+
+     KC.NO, KC.BRID, KC.NO
+    ],
+
+    [ #LAYER 2: DAILY [TBD, will think of it when i have it in-person!]
+     KC.N7, KC.N8, KC.N9, MIDDLER ,
+
+     KC.N4, KC.N5, KC.N6,
+
+     KC.N1, KC.N2, KC.N3
+    ],
+    
+    [ #LAYER 3: LEDs animation 
+     KC.RGB_MODE_KNIGHT, KC.RGB_MODE_SWIRL, KC.RGB_MODE_BREATHE, BASE,
+     
+     KC.RGB_HUD, KC.RGB_ANI, KC.RGB_HUI,
+     
+     KC.N1, KC.RGB_AND, KC.RGB_TOG
+    ],
+]
+```
+and for each layer i wanted the oled to display different stuff, to differentiate each layer
+
+```
+display.entries = [
+    ImageEntry(image="me.bmp", x=0, y=0, layer=0),
+    ImageEntry(image="kevin.bmp", x=0, y=0, layer=1), 
+    ImageEntry(image="oneil.bmp", x=0, y=0, layer=2), 
+    ImageEntry(image="hc.bmp", x=0, y=0, layer=3), 
+    TextEntry(text="Layer 0", x_anchor="T", y_anchor="R", layer=0),
+    TextEntry(text="Layer 1", x_anchor="T", y_anchor="R", inverted=True, layer=1),
+    TextEntry(text="Layer 2", x_anchor="T", y_anchor="R", inverted=True, layer=2),
+    TextEntry(text="Layer 3", x_anchor="T", y_anchor="R", inverted=True, layer=3),
+]
+```
+
+As for the rotary encoder, for now it will only increase or decrease the volume
+
+```
+encoder_handler.map = [
+    ((KC.VOLD, KC.VOLU),), #Layer 0 NUMPAD
+]
+```
+
+Time Spent: 3 hours 
+
 # June 12 :godmode:
 Added some supports? Idk but i added this to make the assembly easier
 ![image](https://github.com/user-attachments/assets/1e51a3ce-09b3-4dbf-a8b3-09f24f095769)
