@@ -1,5 +1,5 @@
 # Atrocious_Hackpad
-A 9x9 macropad with a rotary encoder designed to function as a numpad and have certain macros for daily use
+A 3x3 macropad with a rotary encoder designed to function as a numpad and have certain layers for daily use
 
 # Hackpad
 ![CASE CAD (2)](https://github.com/user-attachments/assets/15c149be-7ff3-479e-a1c1-0c1dfb543d25)
