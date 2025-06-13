@@ -239,4 +239,6 @@ Added some supports? Idk but i added this to make the assembly easier
 
 
 Time Spent: 0.5 hours
-![Video of the assembling](https://github.com/user-attachments/assets/44710b4c-f038-4628-ad3c-8864bbcb4045)
+Video of the assembling 
+
+https://github.com/user-attachments/assets/44710b4c-f038-4628-ad3c-8864bbcb4045
