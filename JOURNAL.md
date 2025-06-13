@@ -1,8 +1,11 @@
-|title |	author	|description	|created_at|
-|:--------:|:------:|:--------:|:-----:|
-|Atrocious_Hackpad | [@Qtrocious](https://github.com/qtrocious/)| A 9 key macropad with a rotary encoder, 9 sk6812 leds and a oled display |2024-05-28|
+---
+title: "Atrocious_Hackpad"
+author: "@Qtrocious"
+description: "A 9 key macropad with a rotary encoder, 9 sk6812 leds and a oled display"
+created_at: "2025-05-28"
+---
 
-Total time spent: 38 hours
+**Total time spent: 41.5 hours**
 
 > So for clarification, didn't realized i needed to journal for a starter project (dumb from my part ik) but thankfully (and luckily) i did have a local repo that i had from the beginning, i'll attach an screenshot to each day that i commit something TT
 
