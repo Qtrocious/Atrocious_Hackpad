@@ -4,6 +4,8 @@ A 3x3 macropad with a rotary encoder designed to function as a numpad and have c
 # But, but why tho
 I saw hackpad as the perfect project for Highway to practice my skils i learned from Solder and i also learned fusion360! 
 > It was painful
+
+# CAD
 ![CASE CAD (2)](https://github.com/user-attachments/assets/15c149be-7ff3-479e-a1c1-0c1dfb543d25)
 # PCB
 ![PCB (2)](https://github.com/user-attachments/assets/7b92f9f6-ffad-4c86-979e-9c976a0a7e27)
